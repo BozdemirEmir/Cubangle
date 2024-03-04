@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d32e92ffad16f14d9f3a66ba734b46d, type: 3}
+  m_Name: PoisonGun
+  m_EditorClassIdentifier: 
+  areaMask:
+    serializedVersion: 2
+    m_Bits: 896
+  areaRadius: 1.75
+  isResidue: 1
+  fx_AreaGunExplosion: {fileID: 50443489347252479, guid: 092bad6a02786e84995ee25f8337536a, type: 3}
+  residue: {fileID: 3690396764491944018, guid: 1472fd3e63a8554488b1d8a0908ced2f, type: 3}
+  residueTimer: 2
+  maxResidueDamageCount: 3

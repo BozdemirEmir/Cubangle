@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ce00370e639544c99074a909570708, type: 3}
+  m_Name: EnemyShooter
+  m_EditorClassIdentifier: 
+  objectPrefab: {fileID: 7884729124563924592, guid: ee6e60dc14d72954b8b9371ecab7714f, type: 3}
+  size: {x: 1, y: 1}
+  placementType: 1
+  addOffset: 0
+  canDestructible: 1
+  itemHealth: 3
+  dropObjectSprite: {fileID: 0}

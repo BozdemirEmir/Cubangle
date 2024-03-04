@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: 8a0afe039ed11d046872944e96ce9156
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 15
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 0
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 0
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638317754260823660
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: wallTiles
+    originalName: 
+    pivot: {x: 0.4895833, y: -0.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 96
+      height: 80
+    spriteID: 36445a5288b412b4084ae3b2731d3892
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  spriteSheetImportData:
+  - name: wallTiles_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 68
+      width: 16
+      height: 16
+    spriteID: 76b814a437211b44eb6c57b3b1518694
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 68
+      width: 16
+      height: 16
+    spriteID: b9879cc122339eb49a238cf72b90d3d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 68
+      width: 16
+      height: 16
+    spriteID: 8f94608c677befe41b890e1b44cf8d5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 68
+      width: 16
+      height: 16
+    spriteID: 4a82d73eacd6cde49851fd9121b1fef0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 68
+      width: 16
+      height: 16
+    spriteID: 375381472b4137c4d9a8a4bd3353a3f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 68
+      width: 16
+      height: 16
+    spriteID: 0de0b9408cb5eee45a1d967f8a559fb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 52
+      width: 16
+      height: 16
+    spriteID: c0cd0c3e9c1c10a439a000b47e3f6fca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 36
+      width: 16
+      height: 16
+    spriteID: 45056dca2bdac5e42a1b033f4700aafd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 20
+      width: 16
+      height: 16
+    spriteID: 82db02e20857d92409a7fc7ab3629b6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 16
+      height: 16
+    spriteID: 7db556d63056c8d4286292da7a15a409
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 4
+      width: 16
+      height: 16
+    spriteID: a4837add5dfffa8408c1860cff13a587
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 16
+      height: 16
+    spriteID: d2f909422b2cdca41815b53ef53288b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 4
+      width: 16
+      height: 16
+    spriteID: 1b485a089dbfa7041987af0f7dc2c7a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 4
+      width: 16
+      height: 16
+    spriteID: 08237759c14392d41876c4e02332bf81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 16
+      height: 16
+    spriteID: 1ec5d33c7f921e243b7f1ca16d4f8df9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 20
+      width: 16
+      height: 16
+    spriteID: 858f40a5bd7c4d14ca46161018dc80a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 36
+      width: 16
+      height: 16
+    spriteID: 2305b8d7d5c3de94f8534317db1f4c93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: wallTiles_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 52
+      width: 16
+      height: 16
+    spriteID: 7d1a6433f46064e40b9339d7c178a9a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -8, y: -8}
+      - {x: -8, y: 8}
+      - {x: 8, y: 8}
+      - {x: 8, y: -8}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -713346187
+    name: wallTiles
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: wallTiles
+      frameIndex: 0
+      cellRect:
+        x: 33
+        y: 48
+        width: 96
+        height: 80
+      spriteId: 36445a5288b412b4084ae3b2731d3892
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 160, y: 160}
